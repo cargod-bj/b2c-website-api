@@ -1,9 +1,9 @@
 syntax = "proto3";
-package consultation;
+package send2google;
 import "google/protobuf/any.proto";
-option go_package = "github.com/cargod-bj/b2c-website-api/consultation";
+option go_package = "github.com/cargod-bj/b2c-website-api/send2google";
 
-service Consultation {
+service Send2google {
   rpc SendConsultation2Google(RequestDto) returns (Response) {}
 }
 
